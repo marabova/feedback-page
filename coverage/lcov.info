@@ -1,5 +1,5 @@
 TN:
-SF:/Users/arabovm/Documents/dev/Webpack-4-boilerplate/src/scripts/components/chart.js
+SF:/Users/svetoslavko/Documents/dev/feedback-page/src/scripts/components/chart.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:1
@@ -12,7 +12,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/arabovm/Documents/dev/Webpack-4-boilerplate/src/scripts/components/comment.js
+SF:/Users/svetoslavko/Documents/dev/feedback-page/src/scripts/components/comment.js
 FN:1,(anonymous_0)
 FNF:1
 FNH:1
@@ -20,16 +20,16 @@ FNDA:1,(anonymous_0)
 DA:1,3
 DA:2,1
 DA:3,1
-DA:13,1
+DA:14,1
 LF:4
 LH:4
-BRDA:6,0,0,1
-BRDA:6,0,1,0
+BRDA:7,0,0,1
+BRDA:7,0,1,0
 BRF:2
 BRH:1
 end_of_record
 TN:
-SF:/Users/arabovm/Documents/dev/Webpack-4-boilerplate/src/scripts/components/form.js
+SF:/Users/svetoslavko/Documents/dev/feedback-page/src/scripts/components/form.js
 FN:6,(anonymous_0)
 FN:11,(anonymous_1)
 FN:17,(anonymous_2)
@@ -69,7 +69,7 @@ BRF:4
 BRH:2
 end_of_record
 TN:
-SF:/Users/arabovm/Documents/dev/Webpack-4-boilerplate/src/scripts/utils/displayComments.js
+SF:/Users/svetoslavko/Documents/dev/feedback-page/src/scripts/utils/displayComments.js
 FN:4,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -88,7 +88,7 @@ BRF:1
 BRH:1
 end_of_record
 TN:
-SF:/Users/arabovm/Documents/dev/Webpack-4-boilerplate/src/scripts/utils/getLocalStorage.js
+SF:/Users/svetoslavko/Documents/dev/feedback-page/src/scripts/utils/getLocalStorage.js
 FN:1,(anonymous_0)
 FNF:1
 FNH:1
@@ -100,7 +100,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/arabovm/Documents/dev/Webpack-4-boilerplate/src/scripts/utils/getRating.js
+SF:/Users/svetoslavko/Documents/dev/feedback-page/src/scripts/utils/getRating.js
 FN:4,(anonymous_0)
 FN:9,(anonymous_1)
 FNF:2

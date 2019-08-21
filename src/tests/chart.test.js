@@ -1,16 +1,16 @@
-import ratingChart from "../scripts/components/chart";
-import Chart from "chart.js";
+import ratingChart from '../scripts/components/chart';
+import Chart from 'chart.js';
 
-jest.mock("chart.js");
+jest.mock('chart.js');
 
-describe("getRating", () => {
+describe('ratingChart', () => {
   beforeEach(() => {
     Chart.mockClear();
   });
 
   afterEach(() => {});
 
-  it("it should call Chart from library once", () => {
+  it('it should call Chart from library once', () => {
     ratingChart();
     expect(Chart).toHaveBeenCalledTimes(1);
   });

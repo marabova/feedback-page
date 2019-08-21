@@ -1,0 +1,49 @@
+.starrating > input {
+  display: none;
+} /* Remove radio buttons */
+
+.starrating > label:before {
+  content: '\f005'; /* Star */
+  margin: 2px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.starrating > label {
+  color: $inactive-rating-color; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label {
+  color: $active-rating-color;
+}
+
+.starrating > input:hover ~ label {
+  color: $active-rating-color;
+}
+
+.rating {
+  &:before {
+    margin: 2px;
+    font-size: 1.2em;
+    font-family: FontAwesome;
+    display: inline-block;
+    color: $active-rating-color;
+  }
+  &-1:before {
+    content: '\f005'; /* Star */
+  }
+  &-2:before {
+    content: '\f005 \f005 '; /* Star */
+  }
+  &-3:before {
+    content: '\f005 \f005 \f005'; /* Star */
+  }
+  &-4:before {
+    content: '\f005 \f005 \f005 \f005 '; /* Star */
+  }
+  &-5:before {
+    content: '\f005 \f005 \f005 \f005 \f005'; /* Star */
+  }
+}

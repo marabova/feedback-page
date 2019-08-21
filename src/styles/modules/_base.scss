@@ -1,11 +1,17 @@
-@import "variables";
+@import 'variables';
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import 'rating';
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+}
 html {
   box-sizing: border-box;
   color: $primary-color;
@@ -15,4 +21,8 @@ html {
 
 .center {
   text-align: center;
+}
+
+.single-comment {
+  margin-top: 20px;
 }
